@@ -41,9 +41,3 @@ export default{
   }
 }
 </script>
-
-<style scoped>
-  input{
-    border: 1px solid #333;
-  }
-</style>

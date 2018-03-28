@@ -5,7 +5,7 @@
     <ul>
       <li v-for="item in linkList" :key="item.link">
         <router-link :to="item.link">
-          item.title
+          {{item.title}}
         </router-link>
       </li>
     </ul>
@@ -19,7 +19,8 @@ export default {
     return {
       msg: 'Welcome to Vue.js Demo',
       linkList: [
-        { title: 'templateSyntax', link: '/templateSyntax' }
+        { title: 'templateSyntax', link: '/templateSyntax' },
+        {title: 'computedAndWatch', link: '/computedAndWatch'}
       ]
     }
   }
