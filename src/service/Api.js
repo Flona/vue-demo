@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 var api = axios.create({
-  baseURL: 'http://xxx',
+  baseURL: 'http://magpie-api-testing.info.iii-space.com',
   timeout: 30000
 })
 // request拦截器

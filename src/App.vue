@@ -23,4 +23,11 @@ export default {
 input{
   border: 1px solid grey;
 }
+button{
+  border-radius: 4px;
+  padding: 5px;
+  outline: none;
+  background-color: #64b587;
+  color: #333;
+}
 </style>

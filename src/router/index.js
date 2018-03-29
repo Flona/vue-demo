@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/views/Home'
 import TemplateSyntax from '@/views/TemplateSyntax'
 import ComputedAndWatch from '@/views/ComputedAndWatch'
+import ClassAndStyle from '@/views/ClassAndStyle'
 
 Vue.use(Router)
 
@@ -20,8 +21,13 @@ export default new Router({
     },
     {
       path: '/computedAndWatch',
-      name: ComputedAndWatch,
+      // name: ComputedAndWatch,
       component: ComputedAndWatch
+    },
+    {
+      path: '/classAndStyle',
+      // name: ClassAndStyle,
+      component: ClassAndStyle
     }
   ]
 })

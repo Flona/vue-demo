@@ -20,7 +20,8 @@ export default {
       msg: 'Welcome to Vue.js Demo',
       linkList: [
         { title: 'templateSyntax', link: '/templateSyntax' },
-        {title: 'computedAndWatch', link: '/computedAndWatch'}
+        {title: 'computedAndWatch', link: '/computedAndWatch'},
+        {title: 'classAndStyle', link: '/classAndStyle'}
       ]
     }
   }
