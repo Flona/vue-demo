@@ -21,7 +21,9 @@ export default {
       linkList: [
         { title: 'templateSyntax', link: '/templateSyntax' },
         {title: 'computedAndWatch', link: '/computedAndWatch'},
-        {title: 'classAndStyle', link: '/classAndStyle'}
+        {title: 'classAndStyle', link: '/classAndStyle'},
+        {title: 'conditional', link: '/conditional'},
+        {title: 'list', link: '/list'}
       ]
     }
   }

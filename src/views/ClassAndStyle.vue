@@ -14,6 +14,7 @@
     <p :style="computedStyleObject">内联样式对象语法绑定计算属性</p>
     <p :style="[styleObject, styleObject2]">内联样式数组语法绑定多个styleObject</p>
     <p :style="{'font-smoothing': 'antialiased'}">自动添加前缀</p>
+    <p :style="{display: ['-webkit-box', '-ms-flexbox', 'flex']}">多重值，最后一个被浏览器支持的值</p>
   </div>
 </template>
 
@@ -32,7 +33,7 @@ export default{
         'font-weight': 'bold'
       },
       styleObject2: {
-        color: 'pink',
+        color: 'pink'
       }
     }
   },

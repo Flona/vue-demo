@@ -18,7 +18,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10px;
+}
+img{
+  width: 60px;
 }
 input{
   border: 1px solid grey;
@@ -29,5 +32,9 @@ button{
   outline: none;
   background-color: #64b587;
   color: #333;
+}
+.divider{
+  color: grey;
+  text-align: center;
 }
 </style>
